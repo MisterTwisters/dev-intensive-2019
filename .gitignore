@@ -1,10 +1,10 @@
-#MisterTwister
 
-# Gradle files
-.gradle/
-
-# User-specific configurations
-*.iml
+# lint
+lint/intermediates/
+lint/generated/
+lint/outputs/
+lint/tmp/
+lint/reports/#MisterTwister
 
 # OS-specific files
 .DS_Store
@@ -13,8 +13,12 @@
 .Spotlight-V100
 .Trashes
 ehthumbs.db
+Thumbs.db
+
 # Built application files
-build/
+*.apk
+*.ap_
+*.aab
 
 # Files for the ART/Dalvik VM
 *.dex
@@ -52,4 +56,4 @@ captures/
 google-services.json
 
 # Version control
-vcs.xmlThumbs.db
+vcs.xml
